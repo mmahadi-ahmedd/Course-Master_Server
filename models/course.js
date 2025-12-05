@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const lectureSchema = new mongoose.Schema({
     lectureId:{type:String , required: true},
-    lecturTitle:{type:String , required: true},
+    lectureTitle:{type:String , required: true},
     lectureDuration:{type:Number , required: true},
     lectureUrl:{type:String , required: true},
     isPreviewFree:{type: Boolean , required: true},
